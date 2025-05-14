@@ -85,3 +85,9 @@ var customStyle = '';
     minCitationCount: 5
 }; */
 var citations = null;
+/**
+ * === use my generated bibliography ===
+ */
+var externalBibFile = 'data/generated/bib.js';
+var paper = null;
+var editable = false;
