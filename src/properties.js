@@ -22,7 +22,6 @@ var jsDir = 'js/';
  */
 var stylesDir = 'styles/';
 
-
 /**
  * Options for displaying tag clouds.
  * field: BibTeX field used for generating the tag clouds,
@@ -45,19 +44,7 @@ var tagCloudOptions = [{
 }];
 
 /**
- * If BibTeX entries (and tags) should be editable
- * @type {boolean}
- */
-var editable = true;
-
-/**
- * Subtitle describing the paper the data is referring to (set to null to deactivate)
- * @type {{html: string, id: string}}
- */
-var paper = null;
-
-/**
- * Extra pages like an about page that will be listed in the footer an can be opened on demand (page name -> path)
+ * Extra pages like an about page that will be listed in the footer and can be opened on demand (page name -> path)
  */
 var extraPages = {
     'about': 'about.html'
@@ -68,18 +55,14 @@ var extraPages = {
  * @type {string}
  */
 var customStyle = '';
-/* Example for simplified entries */
-//var customStyle = 'styles/custom_entries_simplified.css';
 
 /**
  * Options for showing citation information (set to null to avoid showing any citation information)
  * minCitationCount: minimum number of citations of a paper to be displayed in the visualization
  * @type {{minCitationCount: number}}
  */
-/* var citations = {
-    minCitationCount: 5
-}; */
 var citations = null;
+
 /**
  * === use my generated bibliography ===
  */
