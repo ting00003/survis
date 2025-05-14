@@ -21,6 +21,9 @@ var jsDir = 'js/';
  * @type {string}
  */
 var stylesDir = 'styles/';
+/* === use my generated bibliography === */
+var externalBibFile = 'data/generated/bib.js';
+
 
 /**
  * Options for displaying tag clouds.
